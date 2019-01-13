@@ -13,13 +13,21 @@ namespace DiscordBot.Controllers.api
     public class OSRSTrackerController : ApiController
     {
         [HttpPost]
-        public async Task<string> Request([FromUri]string cmd, [FromUri]string[] param, [FromUri]string discordID)
+        public async Task<string> Request([FromUri]string cmd, [FromUri]string[] param, [FromUri]Int64 discordID)
         {
             var result = "";
             
             HttpClient client = new HttpClient();
 
             switch (cmd.ToLower()) {
+                case "setrsn":
+
+
+
+                    break;
+                case "account":
+                    result = new Account(discordID).Get(discordID).ToResponse();
+                    break;
                 case "stats":
                     var user = new User(param[0]);
                     
