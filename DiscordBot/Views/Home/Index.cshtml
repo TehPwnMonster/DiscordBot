@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<!--[if lt IE 7 ]>  <html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>     <html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>     <html class="ie ie8" lang="en"> <![endif]-->
+<!--[if gte IE 9]>  <html class="ie" lang="en"> <![endif]-->
+<!--[if !(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <title>Planechase</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- build:css ~/styles/main.min.css -->
+    <link href="~/Styles/bootstrap.css" rel="stylesheet" />
+    <link href="~/Styles/main.css" rel="stylesheet" />
+    <!-- /build -->
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- ko foreach: ko.unwrap(availablePages) -->
+            <div class="col-xs-4">
+                <a class="element" data-bind="attr: { 'href' : Link}">
+                    <div class="row">
+                        <div class="col-xs-12 element_title" data-bind="attr: { title: Title }">
+                            <p data-bind="text: Title"></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-10 element_description" data-bind="attr: { title : Description }">
+                            <p data-bind="text: Description"></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- /ko -->
+        </div>
+    </div>
+
+
+    <script src="~/Scripts/libs/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/libs/jquery.validate.js"></script>
+    <script src="~/Scripts/libs/bootstrap.js"></script>
+    <script src="~/Scripts/libs/knockout.js"></script>
+    <script src="~/Scripts/libs/lodash.core.js"></script>
+
+    @Html.Raw(ViewBag.StartupScript)
+    <script src="~/scripts/views/home.view.js"></script>
+</body>
+</html>

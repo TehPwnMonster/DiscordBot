@@ -1,0 +1,10 @@
+C:\Users\Ben\Documents\DiscordBot\DiscordBot\DiscordBot.Models\bin\Debug\DiscordBot.Models.dll
+C:\Users\Ben\Documents\DiscordBot\DiscordBot\DiscordBot.Models\bin\Debug\DiscordBot.Models.pdb
+C:\Users\Ben\Documents\DiscordBot\DiscordBot\DiscordBot.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ben\Documents\DiscordBot\DiscordBot\DiscordBot.Models\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Ben\Documents\DiscordBot\DiscordBot\DiscordBot.Models\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ben\Documents\DiscordBot\DiscordBot\DiscordBot.Models\obj\Debug\DiscordBot.Models.csproj.CoreCompileInputs.cache
+C:\Users\Ben\Documents\DiscordBot\DiscordBot\DiscordBot.Models\obj\Debug\DiscordBot.Models.csproj.CopyComplete
+C:\Users\Ben\Documents\DiscordBot\DiscordBot\DiscordBot.Models\obj\Debug\DiscordBot.Models.dll
+C:\Users\Ben\Documents\DiscordBot\DiscordBot\DiscordBot.Models\obj\Debug\DiscordBot.Models.pdb
+C:\Users\Ben\Documents\DiscordBot\DiscordBot\DiscordBot.Models\obj\Debug\DiscordBot.Models.csprojAssemblyReference.cache
