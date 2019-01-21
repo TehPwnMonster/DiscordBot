@@ -64,7 +64,7 @@ namespace DiscordBot.Models
             this.Overall = new Stat(parsedData[0], parsedData[1], parsedData[2]);
             this.Attack = new Stat(parsedData[3], parsedData[4], parsedData[5]);
             this.Defence = new Stat(parsedData[6], parsedData[7], parsedData[8]);
-            this.Strength = new Stat(parsedData[9], parsedData[19], parsedData[11]);
+            this.Strength = new Stat(parsedData[9], parsedData[10], parsedData[11]);
             this.Hitpoints = new Stat(parsedData[12], parsedData[13], parsedData[14]);
             this.Ranged = new Stat(parsedData[15], parsedData[16], parsedData[17]);
             this.Prayer = new Stat(parsedData[18], parsedData[19], parsedData[20]);
